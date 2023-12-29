@@ -1,0 +1,15 @@
+public class Driveclass_Exercise_3 {
+		
+			public static void main(String args[]) {
+				
+				Exercise_3  em1 = new Exercise_3 (001,"RAJ","Software Engineer",20000);
+				
+                Exercise_3  em2 = new Exercise_3 (002,"Sri","HR",45000);
+				
+				em1.getEmpDetails();
+				System.out.println();
+				em2.getEmpDetails();
+			}
+
+		}
+
